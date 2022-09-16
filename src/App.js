@@ -8,7 +8,6 @@ import Clients from "./components/Clients";
 import AsideMenu from "./components/AsideMenu";
 import Footer from "./components/Footer";
 
-
 function App() {
   const [items, setItems] = React.useState([]);
 
@@ -19,8 +18,8 @@ function App() {
         {
           headers: {
             "Content-Type": "application/json",
-            "accept": "application/json",
-            "x-api-key": process.env.REACT_APP_API_KEY //enter the api key in the env file, for security reason
+            accept: "application/json",
+            "x-api-key": process.env.REACT_APP_API_KEY, //enter the api key in the env file, for security reason
           },
         }
       );
