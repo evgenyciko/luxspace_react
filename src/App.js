@@ -19,7 +19,7 @@ function App() {
           headers: {
             "Content-Type": "application/json",
             accept: "application/json",
-            "x-api-key": process.env.REACT_APP_API_KEY, //enter the api key in the env file, for security reason
+            "x-api-key": "e12dae64-e563-4def-b98d-3779f81e31ee", //enter the api key in the env file, for security reason
           },
         }
       );
